@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/common_style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image" href="./images/logo.png"/>
+        <title>MARRIOTT HOTEL</title>
+    </head>
+
+    <body>
+        <div id="conteneur_invisible">
+            <header>
+                <img src="images/le_logo.png" alt="Logo" id="logo">           
+                    <nav>
+                        
+                        <ul>
+                            <li class="accueil"><a href="#">ACCUEIL </a></li>
+                            <li><a href="#chambres">CHAMBRES </a></li>
+                            <li><a href="#possibilites">SERVICES</a></li>                    
+                            <li><a href="#">EVENEMENTS</a></li>
+                            <li><a href="#a_propos">A PROPOS</a></li>
+                            <li><a href="#CONTACTEZ_NOUS">CONTACT</a></li>
+                        </ul>
+                    </nav>          
+            </header>
+
+        <section id="image-principale">   
+            <p>BIENVENUE DANS LE</p>
+            <h1>MEILLEUR HOTEL MODERNE</h1>
+        </section>
+
+                                <!-- Formulaire -->
+        <section id="reservatio">
+            <div id="formulaire">   
+                <form method="post" action="traitement.php" >   
+                    <p>                          
+                    <input type="email" name="email" id="email" placeholder=" Votre e-mail" />    
+                    </p> 
+                </form>
+                <form method="post" action="traitement.php">
+                    <p>                          
+                        <input type="tel" name="phone" id="phone" placeholder="Votre numero" />    
+                    </p> 
+                </form>
+                <form method="post" action="traitement.php">   
+                    <p>         
+                        <input type="text" name="date" placeholder="Date d'arrivée" onfocus="(this.type='date')"/>                 
+                    </p> 
+                </form>                  
+                <form method="post" action="traitement.php">   
+                    <p>                              
+                        <input type="text" name="date" placeholder="Date de départ" onfocus="(this.type='date')"/>     
+                    </p> 
+                </form>                  
+                <form method="post" action="traitement.php">   
+                    <p>       
+                        <label for="Chambre"></label><br />       
+                        <select name="Chambre" id="Chambre">           
+                            <option value="1 Chambre">1 Chambre </option>           
+                            <option value="2 Chambres">2 Chambres</option>           
+                            <option value="3 Chambres">3 Chambres</option>           
+                            <option value="4 Chambress">4 Chambres</option>           
+                            <option value="5 Chambres">5 Chambres</option>           
+                            <option value="More">Plus</option>           
+                        </select> 
+                    </p> 
+                </form>
+                <form method="post" action="traitement.php">   
+                    <p>       
+                        <label for="Adults"></label><br />       
+                        <select name="Adults" id="Adults">           
+                            <option value="1 Adult">1 Adulte</option>           
+                            <option value="2 Adultes">2 Adultes</option>           
+                            <option value="3 Adultes">3 Adultes</option>           
+                            <option value="4 Adultes">4 Adultes</option>           
+                            <option value="5 Adultes">5 Adultes</option>           
+                            <option value="More">Plus</option>           
+                        </select>   
+                    </p> 
+                </form>   
+                <form method="post" action="traitement.php">   
+                <p>       
+                    <label for="enfant"></label><br />       
+                    <select name="enfant" id="enfant">           
+                        <option value="0 enfant">0 Enfant</option>           
+                        <option value="2 Enfants">1 Enfants</option>           
+                        <option value="3 Enfants">2 Enfants</option>           
+                        <option value="4 Enfantsn">3 Enfants</option>           
+                        <option value="5 Enfants">4 Enfants</option>           
+                        <option value="More">More</option>           
+                        </select>   
+                        </p> 
+                    </form>                
+                    <div class="bouton">
+                        <a href="#" id="Check">Envoyer</a>
+                    </div>                     
+            </div>
+        </section>
+
+
+                        <!--  CHAMBRES-->
+
+        <section id="chambres">
+            <h2>Nos Meilleures Chambres</h2> 
+
+        <div id="rooms" class="col-xs-4">
+            <div>
+                <img src="images/guestroom.jpg" alt="guestroom"    class="image_room">  
+                <div class="family">
+                    Family Room   <p>179 USD/nuit</p> <button id="bouton2"><a class="bouton2" href="./chambres.html#room_1">Plus de<br> details</a></button>
+                </div>    
+             </div>
+            <div>
+                <img src="images/bed_2.jpg" alt="" class="image_room">
+                <div class="family">
+                    Chambre double <p>189 USD/nuit</p>   <button id="bouton2"><a class="bouton2" href="./chambres.html#room_2">Plus de <br>details</a></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/chambres_4.jpg" alt="" class="image_room">
+                <div class="family">
+                    Chambre de luxe<p>200 USD/nuit</p> <button id="bouton2"><a class="bouton2" href="./chambres.html#room_3">Plus de <br>details</a></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/living_area.jpg" alt="" class="image_room">
+                <div class="family">
+                    Chambre avec salon <p>325 USD/nuit</p>  <button id="bouton2"><a class="bouton2" href="./chambres.html#room_4">Plus de<br> details</a></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+                <section id="possibilites"  style= "background-image: url(images/ballroom.jpg) ;">
+                            
+                    <div class="mega_menu">
+                        <h1 class="service">Nos Services</h1>
+                        <ul>
+                            <li><a href="#">RESTAURANT 1 </a>
+                                <div class="sous_menu">
+                                    <div class="cafe">
+                                        <img src="images/cafe_cho1.jpg" alt="" class="cafe_cho1" >
+                                    <div class="resto"> <h1>Café Cho Restaurant</h1>
+                                        <p>L'espace moderne du Café Cho vous fera <br>
+                                        découvrir des saveurs inoubliables avec style.<br>
+                                        Satisfaire votre appétit en Haïti au Café Cho,<br>
+                                        est notre priorité.Visitez notre restaurant <br>
+                                        décontracté pour du café d’origine locale, des<br>
+                                        sushis roulés à la main, des sandwichs copieux <br>
+                                        et des jus rafraîchissants pour vous garder alimenté.<br></p>
+                                        
+                                        <p>Ouvert pour le petit déjeuner,<br> le déjeuner et le dîner</p>
+                                        <p>Frais de service: 20.00 USD</p>
+                                        
+                                    </div>
+                                        
+                                    </div>
+
+                                    <div class="cafe">
+                                        <img src="images/cafe_cho2.jpg" alt="" class="cafe_cho1" >
+                                
+
+                                    </div>
+                                </div>
+
+                            </li>
+
+                            <li><a href="#">RESTAURANT 2 </a>
+                            <div class="sous_menu">
+                                    <div    class="la_sirene">   
+                                        <img src="images/la_sirene_resto.jpg" alt="" >
+                                        <div class="restaurant">
+                                            <h1>La sirène Restaurant</h1>
+                                            <p>Pas besoin de loger au Marriott pour profiter de son cadre et<br> 
+                                            surtout de son très bon restaurant.<br>
+                                            
+                                            
+                                            Offrez-vous une cuisine internationale décadente <br>
+                                            imprégnée des saveurs d’Haïti au restaurant La Sirène.<br> 
+                                            Profitez d’un repas dans notre restaurant moderne et<br> 
+                                            imprégnez-vous du paysage de Port-au-Prince depuis notre <br>
+                                            terrasse extérieure. Arrêtez-vous le matin pour un petit <br>
+                                            déjeuner savoureux.</p>
+                                            <p>Frais de service: 20.00 USD</p>
+                                        
+                                            
+
+                                        </div>
+                                
+                                    </div>
+
+                                
+
+                                </div> 
+                            </li> 
+
+
+                            
+                            <li><a href="#">Salle à Manger </a>
+                                <div class="sous_menu">
+                                    <div    class="salle_a_manger">   
+                                        <img src="images/private_room.jpg" alt="" >
+                                        <div class="private_room">
+                                            <h1>Salle à Manger Privée</h1>
+                                            <p>
+                                                Célébrez avec six à huit personnes dans la Salle à Manger privée<br>
+                                                de la Sirène, assez grande pour accueillir votre fête mais encore <br>
+                                                assez petite pour maintenir une atmosphère intime.<br>
+                                            </p>
+                                        </div>       
+                                            
+                                    </div>      
+                                </div>        
+                            </li>                 
+        
+                                
+                                
+                            
+
+                            <li><a href="#">BAR</a>
+                                <div class="sous_menu">
+                                    <div class="bar">
+                                        <img src="images/la_sirene_bar.jpg" alt="">
+                                        <div class="sirene_bar">
+                                            <h1>La sirène Bar</h1>
+                                            <p>
+                                                Socialisez avec vos collègues tout en sirotant des cocktails<br>
+                                                artisanaux ou organisez une reunion sociale dans le Bar de La sirène.
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+
+
+
+                            <li><a href="#">GYM</a>
+                                <div  class="sous_menu">
+                                    <div class="gym">
+                                                <img src="images/gym1.jpg" alt="">
+                                        <div class="gym_s">
+                                            <h1>Fitness Center</h1>
+                                            <p>Pecfectionner votre physique a l'aide de nos poids<br>
+                                            <p>Profitez d'un entrainement <br>
+                                            rapide au Club 147,notre centre <br>
+                                            de remise en forme sur place,avec <br>
+                                            une selection de poids libres <br>
+                                            et divers equipements cardio.<br>
+                                            </p> libres,ballons medicinaux et de nos ballons de yoga.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                
+
+                                    <div class="gym">   
+                                        <img src="images/gym2.jpg" alt="">
+                                    </div>
+
+                                </div>
+                        </li>                          
+                        </ul>
+
+                    </div>
+            </section>
+<h2 style="text-align: center;">Nos meilleurs espaces</h2>
+        <section id="Les_portfolio">
+            <div class="portfolio">
+                <!--------------------------------------portfolio  item 01------------------------------>
+                <div class="portfolio_item">
+                        <img src="images/kowosol_meeting.jpg" alt=""    class="image_events">  
+                    <div class="portfolio_description">
+                            <h3 class="portfolio_title">Kowosol Salle de réunion </h3>
+                        <a href="./meilleurs_espaces.html#portfolio_item-1" >Plus d'info</a>
+                    </div>
+                </div>
+
+                    <!-------------------------portfolio  item 02----------------------------------------->
+                <div class="portfolio_item">
+                        <img src="images/the_versatile.jpg" alt=""    class="image_events">  
+                    <div class="portfolio_description">
+                            <h3 class="portfolio_title">Ayizan Grande Salle Foyer</h3>
+                            <a href="./meilleurs_espaces.html#portfolio_item-2" >Plus d'info</a>
+                    </div>
+                </div>
+            
+                <!-------------------------portfolio  item 03----------------------------------------->
+                <div class="portfolio_item">
+                    <img src="images/ayizan_ballroom.jpg" alt="" class="image_events">  
+
+                    <div class="portfolio_description">
+                        <h3 class="portfolio_title"> Ayizan Grande Salle-A</h3>
+                        <a href="./meilleurs_espaces.html#portfolio_item-3">Plus d'info</a>
+                    </div>
+                </div>
+            
+                    <!-------------------------portfolio  item 04----------------------------------------->
+            
+                <div class="portfolio_item">
+                    <img src="images/ayizan_ballroom2.jpg" alt=""    class="image_events">  
+                    <div class="portfolio_description">
+                        <h3 class="portfolio_title"> Ayizan Grande Salle-B</h3>
+                        <a href="./meilleurs_espaces.html#portfolio_item-4" class="bouton4">Plus d'info</a>
+                    </div>
+                </div>
+
+                    <!-------------------------portfolio  item 05----------------------------------------->
+                <div class="portfolio_item">
+                        <img src="images/salon_b.jpg" alt=""    class="image_events">  
+                    <div class="portfolio_description">
+                        <h3 class="portfolio_title"> Ayizan Grande Salle-B</h3>
+                        <a href="./meilleurs_espaces.html#portfolio_item-5" class="bouton4">Plus d'info</a>
+                    </div>
+                </div>
+
+                    <!-------------------------portfolio  item 06----------------------------------------->
+                <div class="portfolio_item">
+                    <img src="images/bwa_kayiman.jpg" alt=""    class="image_events">  
+                    <div class="portfolio_description">
+                        <h3 class="portfolio_title">  Salle du Bwa Kayiman</h3>
+                        <a href="./meilleurs_espaces.html#portfolio_item-6" class="bouton4">Plus d'info</a>
+                    </div>
+                </div>
+
+                    <!-------------------------portfolio  item 07----------------------------------------->
+                <div class="portfolio_item">
+                    <img src="images/wedding.jpg" alt=""    class="image_events">  
+                    <div class="portfolio_description">
+                        <h3 class="portfolio_title">Mariage à l’intérieur</h3>
+                        <a href="./meilleurs_espaces.html#portfolio_item-7" class="bouton4">Plus d'info</a>
+                    </div>
+                </div>
+
+                    <!-------------------------portfolio  item 08----------------------------------------->
+                <div class="portfolio_item">
+                    <img src="images/terrace.jpg" alt=""    class="image_events">  
+                    <div class="portfolio_description">
+                        <h3 class="portfolio_title">  Terrasse extérieure</h3>
+                        <a href="./meilleurs_espaces.html#portfolio_item-8" class="bouton4">Plus d'info</a>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+
+
+        <section>
+            <div id="map">
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3782.9163385241654!2d-72.326232!3d18.5326824!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+                1s0x8eb9e7fc05d31185%3A0x57078ac6f3a8cb1b!2sMarriott%20Port-au-Prince%20Hotel!5e0!3m2!1sfr!2sht!4v1619126850411!5m2!1sfr!2sht"
+                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+
+
+        <div id="a_propos">
+            <div>
+                <h1>Marriott Port-au-Prince Hotel</h1>
+                <p>Marriott est un charmant Hotel de 4 étoiles qui propose des services de réception 24/24, <br>
+                des services de conciergerie et des services en chambre.
+                L'hôtel accueille ses invités à Port-au-Prince depuis 2015.</p>
+                <p>
+                Les pièces climatisée sont approvisionnées de conforts tels qu'un coffre-fort dans la chambre,<br>
+                un équipement de repassage et un canapé.Les chambres offrent des vues sur la mer. <br>
+                Marriott Port-Au-Prince Hotel dispose de 167 chambres sur 11 étages.
+                </p>
+
+                <p>
+                Il y a un restaurant d'ambiance offrant des repas locaux. Les options gastronomiques comprennent<br>
+                un bar de café.Un court trajet vous mènera à l'aéroport Aeroport international Toussaint-Louverture.<br>
+                La propriété dispose d'une piscine en plein air. L'hôtel offre des cours de fitness et un centre de fitness<br>
+                pour aider à garder la forme.</p>
+            </div>
+            <h2>Équipements</h2>
+            <h3>Général</h3>
+            <div id="Général">
+                
+            
+            <div class="Général_1">
+            
+                <nav>
+                            
+                    <ul>
+                        <li>Hôtel pour non-fumeurs </li>
+                        <li>Wi-fi gratuit </li>
+                        <li>Parking</li>
+                        <li>Coffre-fort</li>
+                        <li>Réception ouverte 24h sur 24</li>
+                        <li>Animaux non admis</li>
+                    
+                    </ul>
+                </nav>
+            </div> 
+
+            <div class="Général_2">
+            
+                <nav>
+                            
+                    <ul>
+                    
+                        <li>Chambres/ Équipements pour <br>handicapés</li>
+                        <li>Accès pour fauteuils roulants</li>
+                        <li>Climatisation dans les espaces publics</li>
+                        <li>Consigne à bagages</li>
+                        <li>Ascenseur</li>
+                        <li>Distributeur automatique de<br> billets</li>
+                    </ul>
+                </nav>
+            </div> 
+
+
+
+            </div>
+
+            <div id="vue_de_marriott"><img src="images/marriott.jpg" alt=""   class="vue_de_marriott"></div>
+
+        <h3>Services</h3>
+            <div id="les_Services">
+                
+            
+                <div class="les_Services_1">
+            
+                <nav>
+                            
+                    <ul>
+                        <li>Navette d'aéroport payante </li>
+                        <li>Service en chambre </li>
+                        <li>Service de révei</li>
+                        <li>Centre d'affaires</li>
+                    
+                    </ul>
+                </nav>
+            </div> 
+        
+            <div class="les_Services_2">
+            
+                <nav>
+                            
+                    <ul>
+                    
+                        <li>Équipements pour réunion/<br> banquet</li>
+                        <li>Imprimantes</li>
+                        <li>Fax/photocopieur</li>
+                        
+                    </ul>
+                </nav>
+            </div> 
+        
+        
+        
+            </div>
+
+            <div   id="Informations">
+
+            <h2>Informations importantes</h2>
+            <p><span>Arrivée: </span>   à partir de 15:00-23:59 heures </p>
+            <p><span>Départ:</span>  jusqu'à 12:00 heures </p>
+
+            <h4>Lits d'appoint et d'enfant</h4>
+            <nav>
+                            
+                <ul>
+                
+                    <li>Il n'y a aucun lit supplémentaire fourni dans la chambre.</li>
+                    <li>Il n'y a aucun lit d’enfant fourni dans la chambre.</li>
+                
+                
+                </ul>
+            </nav>
+
+            <p>
+                En raison du coronavirus (COVID-19), le port du masque est obligatoire dans toutes les <br>
+                parties communes situées à l'intérieur de l'établissement. En raison de la pandémie de<br>
+                coronavirus (COVID-19), cet établissement prend des mesures pour assurer la sécurité<br> 
+                de ses clients et de son personnel. Certains services et équipements peuvent donc être<br> 
+                réduits ou indisponibles.
+            </p>
+
+
+        </div>
+
+        <button id="bouton3"><a href="#formulaire">RÉSERVER MAINTENANT</a></button>
+            
+        </div>
+        </section>
+            
+            
+
+
+        <footer>
+            <img src="images/le_logo.png" alt="Logo" class="logo">
+            <div id="pieds_de_page">
+                <div id="CONTACTEZ_NOUS">  
+                    <h2>CONTACTEZ NOUS</h2>
+
+                    <div class="contact_1"> <img src="images/adress.png" alt="" class="icone_image">
+                        Avenue Jean Paul II, <br> 
+                            Turgeau, Port-au-Prince, Haiti
+                    </div>
+
+                    <div class="contact_2">
+                        <img src="images/web.png" alt="" class="icone_image">
+                        www.marriottportauprince.com
+                    </div>
+
+                    <div  class="contact_3">
+                        <img src="images/tel.png" alt="" class="icone_image">
+                        +509 28 14 2800 <br> 
+                            +509 28 14 2809 
+
+                    </div>
+                        
+                </div>
+
+                <div  class="A_PROPOS">
+                    <h2>A PROPOS</h2>
+                    <nav>
+                        <ul>
+                            <li>A Propos de Nous</li>
+                            <li>FAQ</li>
+                            <li>Connexion</li>
+                            <li>S'inscrire</li>
+                            <li>Termes & Co.</li>
+                            <li>Support</li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+
+
+                <div id="News_letter">
+                <h2>Newsletter</h2>
+                
+                <form method="post" action="traitement.php" >   
+                            
+                        
+                        <input type="email" name="email" id="email" placeholder="Entrer votre ID " />   
+                        <button id="bouton4"><a href="">ENVOYER</a></button> 
+                        
+                    </form>
+            
+                </div>
+
+
+                <div class="Medias_Sociaux">
+                    <h2>Nos Medias Sociaux</h2>
+                    <div id="Medias_Sociaux">
+                        <img src="images/google.png" alt="" class="Medias_image">
+                        <img src="images/face.png" alt="" class="Medias_image">
+                        <img src="images/insta.png" alt="" class="Medias_image">
+                        <img src="images/twitter.png" alt="" class="Medias_image">
+
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+            
+        </div>
+    </body>
+</html>

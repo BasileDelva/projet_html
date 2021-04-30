@@ -1,0 +1,502 @@
+body{
+    margin: 50px;
+    padding:0px;   
+}
+#conteneur-invisible{
+    width: 800px;
+    margin:0 auto;
+    padding: 0 10px;
+}
+
+/***********************************************************        Header      ***********************************************************************/
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+#logo{
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    
+}
+header{
+    height: 80px;
+    
+}
+
+header nav{
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    font-weight: bold; 
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(177, 37, 37) ;    
+}   
+header nav ul li:hover a{
+  color: black;
+}
+.accueil:hover a{
+    text-decoration: none;
+    color: rgb(177, 37, 37); 
+}
+
+
+/***********************************************************         2 eme partie :image-principale      *************************************************/
+
+#image-principale{
+    height: 600px;
+    background: url(../images/salle.jpg) center;
+}
+section{
+ opacity: 0.8
+   
+}
+#image-principale p{
+    color:black;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    padding: 100px 0 0px 0;
+    padding-top: 100px;
+    
+   
+}
+#image-principale h1{
+    color:black;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;  
+}
+
+/***********************************************************         3 eme partie :le formulaire    *************************************************/
+
+
+#formulaire{
+    background-color: rgba(0, 0, 0, 0.966);
+    display: flex;
+    height: 80px;
+    width: 1234px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin: auto;
+    border-bottom:rgb(177, 37, 37) 4px solid;
+}
+
+#formulaire form{
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: 20px;   
+}
+
+
+#formulaire form input{
+    height: 30px;
+    width: 140px;
+    margin-bottom: -10px;  
+}
+
+#formulaire form select{
+    height: 30px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.bouton{
+    float: right;
+    margin-top: 34px;
+    margin-right: 15px;
+    background-color:rgb(177, 37, 37);
+    width: 130px;
+    height: 30px;   
+}
+#Check{
+    color: white; 
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+
+/***********************************************************         4 eme partie :les chambres de l'hotel     *************************************************/
+
+#chambres{
+    height: 420px;
+}
+
+#chambres h2{
+   color: black;
+   text-align: center;  
+}
+#rooms{
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;   
+}
+
+.image_room{
+    width: 300px;
+    height: 250px;   
+}
+#chambres{
+    padding-top:  20px;
+}
+
+.family{
+    width: 298px;
+    height: 60px;
+    border-bottom: solid gray 1px;
+    border-left: solid gray 1px;
+    border-right: solid gray 1px;
+}
+
+    
+
+
+#bouton2{
+  position: absolute;
+  background-color:white ;
+    margin-left: 180px;
+    margin-top: -55px;
+   
+    border-radius: 5px;
+    border:solid 1px red;
+    width: 70px;
+    height: 35px;
+}
+.bouton2{
+    color: red; 
+    text-decoration: none;
+    text-align: center;
+ 
+}
+
+
+/***********************************************************         5 eme partie :les Services de l'hotel     *************************************************/
+
+#possibilites{
+    height: 800px;
+    background-size: 1500px  800px;
+    
+
+}
+.service{
+    text-align: center;
+    padding-bottom: 30px;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+.mega_menu{
+    width: 1040px;
+    height: 200px;
+    margin-left: 190px;
+    padding-top: 160px;
+}
+
+.mega_menu ul{
+    width: 95%;
+    height: 60px;
+    background-color:rgba(255, 255, 255, 0.7);
+    text-align: center;
+    position: relative;
+line-height: 60px;
+
+
+}
+
+.mega_menu ul li{
+    display: inline-block;
+    margin: 0 7px;
+    padding: 0 7px;
+}
+
+.mega_menu ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 6px;
+    font-size: 15px;
+
+    
+}
+
+.mega_menu ul li .sous_menu{
+    position: absolute;
+    background-color: white;
+    width: 1060px;
+    height: 300px;
+    left: 0;
+    top: 60px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+
+    line-height: 20px;
+    visibility: hidden;
+}
+
+.mega_menu ul li:hover{
+    background: white;
+}
+
+.mega_menu ul li:hover a{
+    color: red;
+}
+
+
+.mega_menu ul li:hover .sous_menu{
+    visibility: visible;
+}
+
+
+
+.mega_menu ul li .sous_menu .cafe img{
+    width: 270px;
+    height: 250px;
+    
+
+}
+
+.mega_menu ul li .sous_menu .resto h1{
+    color:red;
+    
+  
+
+}
+.resto{
+    float: right;
+    margin-left: 30px;
+}
+
+.mega_menu ul li .sous_menu .la_sirene{
+   display: flex;
+  
+}
+
+.mega_menu ul li .sous_menu .la_sirene img{
+    
+    width: 350px;
+    height: 250px; 
+ margin-left: 80px;
+ margin-top: 25px;
+ 
+}
+
+.mega_menu ul li .sous_menu .restaurant h1{
+    color:red;
+    
+  
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+.mega_menu ul li .sous_menu .restaurant p{
+    margin-left:100px ;
+}
+
+
+.mega_menu ul li .sous_menu .salle_a_manger   img{
+    
+    width: 350px;
+    height: 250px; 
+ margin-left: 80px;
+ margin-top: 25px;
+ 
+}
+
+.mega_menu ul li .sous_menu .salle_a_manger{
+    display: flex;
+   
+ }
+
+ 
+.mega_menu ul li .sous_menu .private_room h1{
+    color:red;
+    
+  
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+.mega_menu ul li .sous_menu .private_room p{
+    margin-left:100px ;
+    margin-top: 55px;
+}
+
+.mega_menu ul li .sous_menu .bar img{
+    
+    width: 350px;
+    height: 250px; 
+    margin-left: 80px;
+ margin-top: 25px;
+
+}
+
+.mega_menu ul li .sous_menu .bar {
+    display: flex;
+   
+ }
+
+
+ .mega_menu ul li .sous_menu .sirene_bar h1{
+    color:red;
+    
+    
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+.mega_menu ul li .sous_menu .sirene_bar p{
+    margin-left:100px ;
+    margin-top: 50px;
+}
+
+.mega_menu ul li .sous_menu .gym img{
+    width: 270px;
+    height: 250px;
+}
+.gym_s{
+    margin-left: 30px;
+}
+.gym_s h1{
+    color: red;
+}
+
+.mega_menu ul li .sous_menu .gym{
+display: flex;
+justify-content: space-around;
+}
+
+.image_events{
+    width: 300px;
+    height: 250px;
+}
+
+.big_image_events{
+    width: 900px;
+    height: 550px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0 20px 0;
+    background-color: gray;
+}
+.portfolio a{
+    color: red;
+}
+.portfolio a::active{
+    color: red;
+}
+#map{
+    float: right;
+    margin-right: 50px;
+}
+.vue_de_marriott{
+    width: 600px;
+    height: 500px;
+}
+#vue_de_marriott{
+    float: right;
+}
+
+
+#a_propos h1{
+    font-size: 39px;
+   
+}
+
+#a_propos h2{
+    font-size: 30px;
+}
+
+#a_propos h3{
+    font-size: 20px;
+}
+#a_propos h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+#a_propos{
+    margin-top: 100px;
+}
+
+#Général{
+    display: flex;
+}
+
+#Général nav ul li {
+     margin-right: 50px;
+     margin-bottom: 10px;
+    list-style: disc;
+    
+}
+
+#les_Services{
+    display: flex;
+}
+#les_Services nav ul li {
+     margin-right: 50px;
+     margin-bottom: 10px;
+    list-style: disc;
+    
+}
+
+span{
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 70px;
+}
+
+#Informations nav ul li {
+    
+   list-style: disc;
+   
+}
+
+#bouton3{
+    
+    margin-top: 30px;
+    margin-left: 70px;
+    background-color:rgb(223, 17, 17);
+    width: 235px;
+    height: 50px;
+    text-transform: capitalize;
+  
+     border: none;
+     
+
+}
+
+#bouton3 a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    
+}

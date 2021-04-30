@@ -1,0 +1,197 @@
+Regles generales
+body{
+    margin: 50px;
+    padding:0px;   
+}
+#conteneur-invisible{
+    width: 800px;
+    margin:0 auto;
+    padding: 0 10px;
+}
+
+/***********************************************************        Header      ***********************************************************************/
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    
+}
+header{
+    height: 80px;
+    
+}
+
+header nav{
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    font-weight: bold; 
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(177, 37, 37) ;    
+}   
+header nav ul li:hover a{
+  color: black;
+}
+.accueil:hover a{
+    text-decoration: none;
+    color: rgb(177, 37, 37); 
+}
+
+
+                                        /* Mise en page du pied de page */
+footer{
+    margin-top: 35px;
+    background-color: rgba(39, 36, 36, 0.884);
+    height: 400px;
+    width: 1420px;
+}
+
+.logo{
+    width: 100px;
+    height: 86px;
+    margin-left:70px ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.icone_image{
+    width: 30px;
+    height: 20px;  
+}
+
+#pieds_de_page{
+   display: flex;
+   justify-content: space-around;
+   color:white;
+}
+
+#CONTACTEZ_NOUS{
+    margin-left: 30px;
+    border-right: 1px solid white;
+   
+    width: 340px;
+}
+
+#CONTACTEZ_NOUS h2{
+    
+    color:rgb(177, 37, 37);
+}
+
+.contact_1 {
+    margin-bottom: 12px;
+}
+.contact_2 {
+    margin-bottom: 12px;
+}
+.contact_3 {
+    margin-bottom: 12px;
+}
+
+
+.A_PROPOS{
+    margin-left: 70px;
+    margin-right: 100px;
+    border-right: 1px solid white;
+   
+    width: 300px;
+}
+
+.A_PROPOS  h2{
+   
+    margin-left: 40px;
+    color:rgb(177, 37, 37);
+}
+.A_PROPOS nav ul li {
+   padding-bottom: 8px;
+}
+
+
+#News_letter{
+    border-right: 1px solid white;
+    width: 200px;
+}
+
+#News_letter form input{
+    height: 25px;
+    width: 180px;
+    border-bottom:4px solid rgb(177, 37, 37);  
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-right: 160px; 
+}
+
+
+
+
+#bouton4{
+    margin-left: 50px;
+    margin-top: 15px;
+  
+    background-color:white;
+    width: 70px;
+    height: 30px;
+    text-transform: capitalize;
+    border: none;
+}
+
+#News_letter  h2{
+    color:rgb(177, 37, 37);  
+}
+
+.Medias_Sociaux h2{
+    color:rgb(177, 37, 37);
+}
+
+.Medias_image{
+   width: 35px;
+   height: 25px;
+   margin-left: 15px;
+   margin-top: 10px;  
+}
+
+#espaces{
+    margin: 20px;
+}
+.portfolio_content img{
+    width: 600px;
+    height: 400px;
+}
+.portfolio_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rooms_title{
+    text-align: center;
+}
+
+.rooms{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rooms img{
+    width: 400px;
+    height: 300px;
+}
